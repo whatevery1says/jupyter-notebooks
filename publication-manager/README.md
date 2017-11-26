@@ -13,4 +13,8 @@ The API contains a number of useful methods:
 - `show_databases()` displays all databases in the WE1S database.
 - `show_log()` displays the log database.
 - `list_publications()` displays a list of all publication manifests in the `Publications` database.
-- `clear(database)` deletes all entries from the specified database. 
+- `clear(database)` deletes all entries from the specified database.
+
+## Important
+
+The first cell in this notebook runs the `configuration_form.ipynb` file, which uses `ipywidgets` to create an interactive user form. If this cell is run, the internal configuration values in cell 2 will be ignored. If you wish to configure the notebook internally, run cell 2 instead.
