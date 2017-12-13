@@ -6,6 +6,10 @@
 
 Creates and displays a top-level collection manifest from user configurations. The user has the option to insert the manifest into the WE1S database.
 
+## `create_collection_config`
+
+The `ipython widgets` configuration form for `create_collection`. 
+
 ## `manage_data_nodes`
 
 A Data Node is a `RawData` of `ProcessedData` manifest. These manifests are created automatically, if they do not already exist, when `import_collection_data` is run. The `manage_data_nodes` notebook allows the user to create them independently from the import process, update their properties, or display and delete them.
