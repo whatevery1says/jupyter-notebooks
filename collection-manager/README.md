@@ -14,6 +14,10 @@ The `ipython widgets` configuration form for `create_collection`.
 
 A Data Node is a `RawData` of `ProcessedData` manifest. These manifests are created automatically, if they do not already exist, when `import_collection_data` is run. The `manage_data_nodes` notebook allows the user to create them independently from the import process, update their properties, or display and delete them.
 
+## `manage_data_nodes_config`
+
+The `ipython widgets` configuration form for `manage_data_nodes`.
+
 ## `import_collection_data`
 
 Inserts a list of data manifests into the WE1S database. The script first checks whether the collection and Data Node listed in the manifest exist in the database. If the node does not exist, one is created using user-configured variables.
