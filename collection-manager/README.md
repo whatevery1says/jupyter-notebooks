@@ -20,7 +20,11 @@ The `ipython widgets` configuration form for `manage_data_nodes`.
 
 ## `import_collection_data`
 
-Inserts a list of data manifests into the WE1S database. The script first checks whether the collection and Data Node listed in the manifest exist in the database. If the node does not exist, one is created using user-configured variables.
+Inserts a list of data manifests (i.e. JSON documents) into the WE1S database. The script first checks whether the collection and Data Node listed in the manifest exist in the database. If the node does not exist, one is created using user-configured variables.
+
+## `import_collection_data_config`
+
+The `ipython widgets` configuration form for `import_collection_data`.
 
 **Notes:**
 
