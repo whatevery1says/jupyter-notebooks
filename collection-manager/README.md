@@ -28,5 +28,5 @@ The `ipython widgets` configuration form for `import_collection_data`.
 
 **Notes:**
 
-- Data manifests are not validated before they are inserted in the database.
+- Only `collection` manifests are validated against the schema before they are inserted in the database.
 - There probably needs to be a notebook that allows the user to insert or update a Data Node manifest without importing data. These could be added to the API, but the filename `import_collection_data` would probably have to be changed to something more general.
