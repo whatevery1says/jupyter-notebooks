@@ -5,5 +5,19 @@ The notebooks in this folder allow users to create or import manifests to the da
 
 **Notes:**
 
-- Manifest creation forms do not yet handle global properties (`title`, `description`, `label`, etc.). A preliminary configuration form for this is in the works.
+- Not all manifest creation forms currently handle global properties (`title`, `description`, `label`, etc.).
 - The notebooks have some basic database query functions, including updates and searches.
+
+## Task List
+
+- [x] Add global properties to `create_collection`
+- [x] Add global properties to `manage_other_nodes`
+- [ ] Add global properties to `import_collection`
+- [ ] Add global properties to `manage_other_nodes`
+- [ ] Add global properties to `publication-manager`
+- [ ] Create notebook for `Metadata` nodes
+- [ ] Create notebook for `Outputs` nodes
+- [ ] Create notebook for `Related` nodes
+- [ ] Create notebook for `Processes`
+- [ ] Create notebook for `Scripts`
+- [ ] Create notebook for `Projects`
