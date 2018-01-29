@@ -12,7 +12,7 @@ The notebooks in this folder allow users to create or import manifests to the da
 
 - [x] Add global properties to `create_collection`
 - [x] Add global properties to `manage_data_nodes`
-- [ ] Add global properties to `import_collection`
+- [x] Add global properties to `import_collection`
 - [x] Add global properties to `manage_other_nodes`
 - [ ] Add global properties to `publication-manager`
 - [ ] Handle precise dates for `date` in global properties
